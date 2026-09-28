@@ -1,16 +1,56 @@
-# This is a sample Python script.
+# 1.Estruturas condicionais
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+nota = 6
 
+if nota >= 7:
+    print("\nAprovado")
+elif nota >= 5:
+    print("\nRecuperação")
+else:
+    print("\nReprovado")
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# 2.Condicionais e operadores lógicos
 
+idade = 20
+ingresso = True
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+if idade >= 18 and ingresso:
+    print("\nEntrada permitida!\n")
+else:
+    print("\nEntrada recusada!\n")
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# 3.Estrutura de repetição
+
+contador = 1
+
+while contador <= 5:
+    print(contador)
+    contador += 1
+
+# 4.Estrutura de repetição for
+
+print("")
+
+for i in range(1, 6):
+    print(i)
+
+# 5. Percorrendo uma lista
+
+print("")
+
+nomes = ["Ana", "Carlos", "João", "Maria"]
+
+for i in nomes:
+    print(i)
+
+# 6. Break, Continue e Pass
+
+print("")
+
+for i in range (1, 11):
+    if i == 6:
+        break
+        #continue
+        #pass
+
+    print(i)

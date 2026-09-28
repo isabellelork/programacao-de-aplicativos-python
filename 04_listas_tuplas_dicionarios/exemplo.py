@@ -44,3 +44,65 @@ print(nomes)
 
 nomes.pop(0)
 print(nomes)
+
+# 6.Tamanho da lista
+
+# len() informa a quantidade de elementos.
+print(len(nomes))
+
+#7
+for none in nomes:
+    print(nome)
+
+#8 verificando se um elemento existe
+
+if "João" in nomes:
+    print("João está na lista.")
+
+else:
+    print("João não está na lista.")
+
+
+#9 lista com diferentes tipos de dados
+
+dados = ["João", 18, 1.75. True]
+print(dados)
+
+#10 lista de numeros
+
+notas [7.5, 8.0, 6.5, 9.0]
+soma = 0
+
+for nota in notas:
+    soma += nota
+
+media = soma /len(notas)
+
+print(f"Média: {media:.1f}")
+
+#11 tuplas
+
+coordenadas (10, 20)
+print(coordenadas)
+
+#acessando elementos
+
+print(coordenadas[0])
+print(coordenadas[1])
+
+#12 dicionarios
+
+aluno = {
+    "nome": "Carlos",
+    "idade": 17
+    "nota": 8.5
+
+}
+
+print(aluno)
+
+#13 acessando os valores do dicionario
+
+print(aluno["nome"])
+print(aluno["idade"])
+print(aluno["nota"])
