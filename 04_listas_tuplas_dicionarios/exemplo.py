@@ -106,3 +106,8 @@ print(aluno)
 print(aluno["nome"])
 print(aluno["idade"])
 print(aluno["nota"])
+
+#14 alternando valores
+
+aluno["nota"] = 9.0
+print(aluno)
